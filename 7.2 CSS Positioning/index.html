@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .blue-box{
+      background-color: blue;
+      width: 500px;
+      height: 300px;
+      position: relative;
+      top: 200px;
+      left: 200px;
+    }
+    .red-circle{
+      background-color: red;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: absolute;
+      top: 150px;
+      left: 250px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+
+</body>
+</html>
+
+<!-- 
+Relative Positioning: Position relative to default position
+(so it moves from the spot from where it originally was supposed to be)
+
+Absolute Positioning: Position relative to nearest POSITIONED ancestor or top
+left corner of webpage (ancestor must be as position: relative maybe absolute, otherwise it would
+simply position itself based off the top left corner)
+
+Z-index: default is 0 and allows divs to be put in front or in the back
+
+Fixed Positioning: position relative to top left corner of browser window
+(basically like absolute positioning but it is fixed on that spot of the browser,
+does not move whatsoever even if you scroll down or up)
+-->

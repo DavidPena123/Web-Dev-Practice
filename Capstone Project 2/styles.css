@@ -1,0 +1,47 @@
+body{
+    background-color: #8BA0A0;
+}
+img{
+    width: 400px;
+}
+.background-img{
+    background-image: url("./images/backgroundImg.png");
+    background-size: cover; /*covers the entire element*/
+}
+.hero-div{
+    border: 5px solid black;
+    border-radius: 20%;
+    background-color: #8BA0A0;
+    opacity: 90%;
+}
+.resume-button{
+    text-decoration: none;
+    color: white;
+}
+.about-button{
+    text-decoration: none;
+    color: black;
+}
+.project-head{
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+.hor-line{
+    margin-top: 0;
+}
+.showcase-color{
+    background-color: #A08B8B;
+}
+.p-color{
+    background-color: #735E5E;
+    display: flex;
+    gap: 20px;
+}
+p{
+    color: #E4E0E0;
+}
+.contact-header{
+    text-align: center;
+}

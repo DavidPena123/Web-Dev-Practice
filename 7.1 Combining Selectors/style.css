@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+/*multiple selectors that have things in common*/
+h1, h2{
+    color: blueviolet;
+}
+
+/*direct descendant, only works for direct child*/
+.box > p{
+    color: firebrick;
+}
+
+/*descendant, doesnt have to be directly above it*/
+.list li{
+    color:blue;
+}
+
+/*chaining = apply where ALL selectors are present inside the element*/
+li.done{
+    color:seagreen;
+} 
+
+/*you can also combine the combiners above*/
+ul p.done{ /*or ul > p.done*/
+    font-size: 0.5rem;
+}
